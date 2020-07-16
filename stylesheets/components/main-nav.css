@@ -1,0 +1,11 @@
+.main__items {
+    display: flex;
+    justify-content: center;
+}
+
+.main__item {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px 5px;
+}

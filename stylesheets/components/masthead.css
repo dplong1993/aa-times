@@ -1,0 +1,90 @@
+.masthead {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.masthead__menu-and-search {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.masthead__actions {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+
+.masthead__technologies {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.masthead__date {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  font-size: 11px;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: solid 1px lightgray;
+  border-top: solid 1px lightgray;
+  padding-bottom: 11px;
+}
+
+.masthead__logo {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  padding-top: 20px;
+  border-bottom: solid 1px lightgray;
+  border-top: solid 1px lightgray;
+  padding-bottom: 11px;
+}
+
+.masthead__paper {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  font-size: 11px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-bottom: solid 1px lightgray;
+  border-top: solid 1px lightgray;
+  padding-bottom: 11px;
+}
+
+.masthead__icon-button {
+  font: 11px;
+  padding: 7px 9px;
+}
+
+.masthead__icon-button:hover {
+  background-color: #f7f7f5;
+}
+
+.fas-cog {
+    margin-bottom: 5px;
+}
+
+.masthead__technology {
+  margin: 0 5px;
+}
+
+.masthead__technology-list {
+  font-size: 10px;
+  color: #6f6f6f;
+  text-transform: uppercase;
+  border-left: solid 1px lightgray;
+  border-right: solid 1px lightgray;
+  border-top: solid 1px lightgray;
+  background-color: white;
+  position: relative;
+  top: 1px;
+}
